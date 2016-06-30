@@ -1,0 +1,24 @@
+# バッチモードに設定し、確認/問い合わせを無効にする
+option batch on
+
+# ファイル上書きの確認などを無効にする
+option confirm off
+
+# サーバーに接続
+open %1%
+
+# リモートディレクトリを変更
+cd %2%
+
+# バイナリモードに変更
+option transfer binary
+
+# ファイルをc:\にダウンロード(最後の\が省けません)
+
+get %3% C:\
+get %4% C:\
+# 切断
+close
+
+# 終了
+exit
