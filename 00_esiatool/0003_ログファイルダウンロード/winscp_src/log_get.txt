@@ -15,8 +15,8 @@ option transfer binary
 
 # ファイルをc:\にダウンロード(最後の\が省けません)
 
-get %3% C:\
-get %4% C:\
+get %3% %5%
+get %4% %5%
 # 切断
 close
 
