@@ -5,11 +5,11 @@ rem WinSCP実行ファイルパス
 set WINSCP_EXE="C:\Users\izumi\application\WinSCP\winscp.exe"
 
 rem APサーバ接続情報
-set AP1_INFO="weblogic:anesta-ap@172.16.1.20"
-set AP2_INFO="weblogic:anesta-ap@172.16.1.30"
+set AP1_INFO="weblogic:**********@999.999.999.999"
+set AP2_INFO="weblogic:**********@999.999.999.999"
 
 rem WEBサーバ接続情報
-set WEB_INFO="esadmin:2HQVxDT4@172.16.1.10"
+set WEB_INFO="esadmin:**********@999.999.999.999"
 
 rem ファイル名
 set AP_LOGFILE_NAME=CustomLog.log
